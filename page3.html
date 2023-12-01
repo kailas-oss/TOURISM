@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>       
+    <style>
+        .unorder{
+            padding-bottom: 20px;
+            padding-top: 25px;
+            margin-top: 1rem;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            padding-right: 20px;
+        } 
 nav{
     font-size:  16px; 
-   
+   padding: 30px;
    font-weight: 100;
             padding: 27px;      
    }
@@ -13,20 +23,20 @@ nav{
             list-style: none;
             
             display: flex;
-        } 
+        }
+   
    li,ul a{
       text-decoration: none;
        display: inline;
        margin: 10px;
-       
+       border: 1px solid transparent;   
    } 
 h5{
    margin-left: 30%;
   
 }
 ul{
-   
-   margin-left: 20%;
+    margin-left:20% ;
 }
 .pic{
     margin-left: 50%;
@@ -39,7 +49,9 @@ ul{
    background-size: 100%;
    background-repeat: no-repeat;
     
-}    
+}  
+
+    
 body{
   
    font-family: 'Courier New', Courier, monospace;
@@ -50,6 +62,7 @@ body{
    height: -webkit-fill-available;
    height: 100vh;
 }
+
    .heading{
     margin-left: 3%;
     margin-top: 5%;
@@ -57,7 +70,8 @@ body{
        color:white;
    }
    .para{
-       margin-left: 5%;      
+       margin-left: 5%;
+       
        color: rgb(124, 104, 104);
    }
    .note{
@@ -67,7 +81,8 @@ body{
    .par{
     margin-left: 5%;
    color: white;
-   width: 30%;     
+   width: 30%;
+        
    }
    a:hover{
             color:rgb(13, 166, 208);
@@ -75,31 +90,37 @@ body{
         }
    .link{
     color: white;
-   margin-left: 18px;
    } 
     </style>
 </head>
 <body>
     <div class ="mag">
-    <h5> 
+    <h5>
+    <div calss="header"></div>
     <nav> 
         <ul>
-            <li > <a href="page1.html" class="link">00 HOME &emsp; &emsp;</a></li>
-            <Li><a href="page2.html" class="link">01 DESTINATION &emsp; &emsp;</a></Li>
-            <Li> <a class="link" href="page3.html">02 CREW &emsp; &emsp;</a></Li>
-            <Li ><a href="page4.html" class="link">03 TECHNOLOGY &emsp;</a></Li>
+            <li > <a href="page1.html" class="link">00 HOME</a></li>
+            <Li><a href="page2.html" class="link">01 DESTINATION</a></Li>
+            <Li> <a class="link" href="page3.html">02 CREW</a></Li>
+            <Li ><a href="page4.html" class="link">03 TECHNOLOGY</a></Li>
         </ul>
     </h5>
 </nav>
+
     <div class="heading">
         <h3> 02 MEET YOUR CREW</h3>
     </div>
+   
+
     <div class="para">
         <h2>FLIGHT ENGINEER</h2>
     </div>
+       
     <div class="note">
     <h1> ANOUSHEH ANSARI</h1> 
 </div>
+    
+
 <p class="par">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
     Ansari was the fourth self-funded space tourist, the first self-funded woman to 
     fly to the ISS, and the first Iranian in space. </p>
