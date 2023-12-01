@@ -29,15 +29,17 @@
             padding-right: 20px; /* Add padding to the right to separate the items from the edge */
         }
 
-        .nav, .nav ul, .nav li {
+        .nav, .nav ul, .nav a {
             list-style: none;
             margin: 0;
             padding: 0;
             display: flex;
         }
 
-        .nav li {
+        .nav a {
             margin-left: 50px; /* Adjust margin to separate list items */
+            color: white;
+            text-decoration: none;
         }
 
         .content {
@@ -76,6 +78,10 @@
         .image{
             padding-left: 2rem;
         }
+        a:hover{
+            color:rgb(13, 166, 208);
+            transition: .2s;
+        }
     </style>
 </head>
 <body>
@@ -83,10 +89,11 @@
         <div class="navbar">
             <img class="image" style="width: 50px; height: 50px;" src="icon.png" alt="Space-Tourism" width="20px">
             <ul class="nav">
-                <li>00  HOME</li>
-                <li>01  DESTINATION</li>
-                <li>02  CREW</li>
-                <li>03  TECHNOLOGY</li>
+                <a href="page1.html"> 00  HOME<a></a>
+                <a href="page2.html"> 01  DESTINATION<a></a>
+                <a href="page3.html"> 02  CREW<a></a>
+                <a href="page4.html"> 03  TECHNOLOGY<a></a>
+            
             </ul>
         </div>
     </div>
